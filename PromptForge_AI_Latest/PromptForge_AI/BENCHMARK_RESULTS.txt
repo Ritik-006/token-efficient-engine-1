@@ -1,0 +1,20 @@
+PromptForge AI — Benchmark Results
+================================
+
+Environment: local Python runtime used to prepare this package.
+Automated regression tests: 12 passed, 0 failed.
+Benchmark fixture count: 10
+Validation checks evaluated: 82
+Validation checks passed: 82 (100.0% lexical/check pass rate)
+Median TokenLite token savings: 5.51%
+Median pipeline latency: 0.225 ms
+P95 pipeline latency: 2.491 ms
+
+IMPORTANT INTERPRETATION
+- These are measurements from the local deterministic benchmark run, not a guarantee for another computer.
+- Token estimates may be approximate if tiktoken is unavailable.
+- The 100% rate is only the pass rate for extracted lexical checks on these fixture cases. It is NOT semantic equivalence, model-answer quality, or proof of zero failures in real-world prompts.
+- The median savings reflects these 10 test cases and does NOT meet the PRD's proposed 20% target. Do not present that target as achieved.
+- Pipeline latency excludes Streamlit rendering, model/API calls, network time and user interaction; it is not a complete end-to-end UI latency measure.
+- The Streamlit UI was syntax-checked but not launched in this environment because Streamlit is not installed here. Install requirements.txt and run it locally to test the interactive UI.
+- Re-run `python -m unittest -v` and `python benchmark.py` on your own machine before presenting results.

@@ -1,0 +1,11 @@
+case_id,original_tokens_est,contextmax_tokens_est,tokenlite_tokens_est,tokenlite_savings_pct,contextmax_validation,tokenlite_validation,validation_checks_passed,validation_checks_failed,validation_checks_uncertain,pipeline_latency_ms
+summary_limits,28,102,26,7.14,PASS,PASS,14,0,0,2.491
+prohibition,20,98,16,20.0,PASS,PASS,6,0,0,0.211
+json_keys,18,92,18,0.0,PASS,PASS,8,0,0,0.445
+coding,24,101,24,0.0,PASS,PASS,8,0,0,0.23
+writing,21,96,20,4.76,PASS,PASS,8,0,0,0.206
+research,21,99,18,14.29,PASS,PASS,10,0,0,0.207
+education,16,94,15,6.25,PASS,PASS,6,0,0,0.192
+data,21,98,21,0.0,PASS,PASS,4,0,0,0.464
+format,21,98,18,14.29,PASS,PASS,8,0,0,0.233
+mixed,24,99,24,0.0,PASS,PASS,10,0,0,0.221
