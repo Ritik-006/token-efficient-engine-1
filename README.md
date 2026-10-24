@@ -1,7 +1,7 @@
 1. “About” box (short description)
 Fail-closed prompt optimizer: generates two prompt rewrites, validates every critical requirement with an editable IntentLock ledger, and only recommends savings that are safe. Offline, deterministic, Streamlit + tiktoken.
 
-This is about 200 characters, under GitHub’s 350 limit.
+
 
 2. Topics (tags)
 prompt-engineering, prompt-optimization, token-efficiency, llm, llm-cost, tiktoken, streamlit, python, ai-tools, requirement-validation
